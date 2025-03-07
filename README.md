@@ -21,6 +21,7 @@ We argue that Homola et al. are primarily capturing the effects of **ruralness**
 
 - **Unemployment rates** and the **presence of immigrants** have an effect on far-right support that is **orders of magnitude larger** than the proximity to former concentration camps.
 - Using a **similar model specification**, we show that the effects reported by Homola et al. are only statistically significant in **the bottom third of municipalities by population size**. When splitting municipalities into **low**, **medium**, and **high population tiers**, the effect disappears in the more populated areas.
+- Using the replication data from Homola et al., we analyze the geographic distribution of support for the AfD party using Moran’s I and Local Indicators of Spatial Autocorrelation (LISA). Our findings show that fewer than 50% of former Nazi concentration camps are located near clusters of AfD support, further challenging the argument that proximity to these historical sites significantly influences far-right voting behavior. 
 
 ## Repository Structure
 - **`/data/`**: Contains raw and processed datasets.
