@@ -62,6 +62,3 @@ Contact
 
 For questions or collaborations, feel free to contact Bryan Lockwald at lockwald@unlv.nevada.edu.
 
-⸻
-
-Let me know if you want any modifications!
