@@ -15,13 +15,13 @@
 ## Overview
 This repository contains the replication materials for our response and extension to:
 
-> Homola, Jonathan, Miguel M. Pereira, and Margit Tavits. 2020. “Legacies of the Third Reich: Concentration Camps and Out-Group Intolerance.” *American Political Science Review* 114(2): 573–90. [doi:10.1017/S0003055419000832](https://doi.org/10.1017/S0003055419000832).
+> Homola, Jonathan, Miguel M. Pereira, and Margit Tavits. 2020. "Legacies of the Third Reich: Concentration Camps and Out-Group Intolerance." *American Political Science Review* 114(2): 573–90. [doi:10.1017/S0003055419000832](https://doi.org/10.1017/S0003055419000832).
 
 We argue that Homola et al. are primarily capturing the effects of **ruralness** rather than the proximity to former Nazi concentration camps on support for the far-right Alternative für Deutschland (AfD) party in Germany. Our analysis demonstrates that:
 
 - **Unemployment rates** and the **presence of immigrants** have an effect on far-right support that is **orders of magnitude larger** than the proximity to former concentration camps.
-Using a similar model specification, we show that the effects reported by Homola et al. are only statistically significant in the bottom third of municipalities by population size. When splitting municipalities into low, medium, and high population tiers, the effect disappears in the more populated areas.
-- Using the replication data from Homola et al., we analyze the geographic distribution of support for the AfD party using Moran’s I and Local Indicators of Spatial Autocorrelation (LISA). Our findings show that fewer than 50% of former Nazi concentration camps are located near clusters of AfD support, further challenging the argument that proximity to these historical sites significantly influences far-right voting behavior. 
+Using a similar model specification, we show that the effects reported by Homola et al. are only statistically significant in the bottom third of municipalities by population size. When municipalities are split into low, medium, and high population tiers, the effect disappears in the more populated areas.
+- Using the replication data from Homola et al., we analyze the geographic distribution of support for the AfD party using Moran's I and Local Indicators of Spatial Autocorrelation (LISA). Our findings show that fewer than 50% of former Nazi concentration camps are located near clusters of AfD support, further challenging the argument that proximity to these historical sites significantly influences far-right voting behavior. 
 
 ## Repository Structure
 - **`/data/`**: Contains raw and processed datasets.
@@ -32,12 +32,12 @@ Using a similar model specification, we show that the effects reported by Homola
 ## Reproducing the Analysis
 ### Requirements
 - **Software**: This project primarily uses **Stata** and **R**.
-- **Dependencies**: Required R packages are listed in the first code block of the Quarto document titled "
+- **Dependencies**: Required R packages are listed in the first code block of the Quarto document titled"
 - **Data Access**: Some datasets may not be publicly available due to restrictions. Please refer to `data/README.md` for details.
 
 ### Steps to Run the Code
 1. Clone this repository:  
-   ```sh
+   "`sh
    git clone https://github.com/your-repo-link.git
    cd your-repo-folder
 
@@ -56,7 +56,7 @@ Citation
 
 If you use this code or data in your own work, please cite our paper:
 
-	[Lockwald, Jensen, and Gomez, Year, Paper Title]
+	Lockwald, Jensen, and Gomez, 2025, Locating the Far Right- A Geospatial Analysis of Support for the AFD in Germany"
 
 Contact
 
